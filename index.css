@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://i.ytimg.com/vi/Gkg9VzRdcpk/maxresdefault.jpg");
+    background-size: 200%;
+    background-color: base;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+h1 {
+    text-align: center;
+    color:forestgreen;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div {
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:burlywood;
+    border-radius:10px;
+}
+
+img {
+    align-self: left;
+    border-image-width: 2px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:tomato;
+    border-radius: 5px;
+}
+
+li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px, 5px;
+    float: left;
+    border-right: 1px crimson;
+}
+
+li a:hover:not(.active) {
+    background-color:firebrick;
+  }
+  .active {
+    background-color: firebrick;
+  }
+
+li a, .dropbtn {
+    display: inline-block;
+    color:silver;
+    text-align: center;
+    padding: 35px 50px;
+    text-decoration: none;
+  }
+
+
+  html {
+      border: 3px;
+      margin: 10px, 10px, 10px, 10px;
+  }
+
+  .stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background:chocolate url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+  }
+  .stt:hover {
+    opacity: 0.8;
+  }
+  .stt:focus {
+    opacity: 0.9;
+  }
+  .stt:active {
+    opacity: 1;
+  }
